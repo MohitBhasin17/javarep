@@ -11,7 +11,7 @@ git 'https://github.com/MohitBhasin17/javarep'
 
       stage('Publish'){
         steps{
-          publishHTML{[
+          publishHTML[
 
             allowmissing:true,
             alwaysLinktoLastBuild:false,
@@ -20,6 +20,6 @@ git 'https://github.com/MohitBhasin17/javarep'
             reportFiles:'index.html',
             reportName:'MY HTML PAGE
         ]
-      }
+      
    }
   }
