@@ -2,7 +2,7 @@ pipeline{
 agent any
 
 stages{
-stage{'checkout'){
+stage{'Checkout'){
 
 steps{
 git 'https://github.com/MohitBhasin17/javarep'
